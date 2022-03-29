@@ -7,6 +7,10 @@ h1 {
 	margin: 10px 10px;
 }
 
+h2 {
+	font-size: 250%;
+}
+
 .title {
 	position: absolute;
 	z-index: 665;
@@ -17,6 +21,8 @@ h1 {
   	height: 72px;
   	background-color: darkgray;
 }
+
+/* creating template */
 
 .container {
 	width: 1280px;
@@ -69,4 +75,71 @@ h1 {
 	display: grid;
 	grid-template-rows: 25%;
 	grid-template-columns: auto;
+}
+
+/* filling template */
+
+.row1-column2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.row4-column2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+.text-box {
+	font-size: 150%;
+	padding: 0px 20px;
+	background: darkgray;
+}
+
+.img-box {
+	padding: 0px 20px;
+}
+
+img.img-profile {
+	width: 100%;
+	height: 70%;
+}
+
+img.polo-car {
+	width: 60%;
+	height: 180%;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	align-self: flex-end;
+	padding: 0% 20%;
+}
+
+span.traffic-line {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	background: white;
+	height: 10%;
+	align-self: flex-end;
+}
+
+p.traffic-text {
+	font-size: 200%;
+	color: white;
+	font-weight: 800;
+	transform: rotate(180deg);
+	text-align: center;
+}
+
+img.traffic-arrow {
+	height: 80%;
+	width: 30%;
+	align-self: center;
+	padding: 0% 35%;
 }
