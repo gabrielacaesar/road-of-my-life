@@ -1,40 +1,33 @@
+body {
+	margin: 0;
+	background-color: #40643c;
+}
+
 h1 {
 	position: absolute;
 	z-index: 666;
-	align-items: center;
-	font-size: 300%;
+	font-size: 60px;
 	color: black;
-	margin: 10px 10px;
+	margin-top: 70px;
+	right: 33.5%;
+  	left: 33.5%;
 }
 
 h2 {
-	font-size: 250%;
-}
-
-.title {
-	position: absolute;
-	z-index: 665;
-	right: 37.5%;
-  	left: 37.5%;
-  	margin-top: 30px;
-  	width: 340px;
-  	height: 72px;
-  	background-color: darkgray;
+	max-width: 100%;
+	font-size: 40px;
 }
 
 /* creating template */
 
 .container {
-	width: 1280px;
+	max-width: 1280px;
+	width: 100%;
 	height: 800px;
 	display: grid;
 	grid-template-columns: 5.75% 37% 3.5% 2.5% 2.5% 2.5% 3.5% 37% 5.75%;
 	grid-template-rows: auto;
-}
-
-.grid-1 > div {
-	width: 100%;
-	height: 100%;
+	margin: 0 auto;
 }
 
 /* road 1 */
@@ -51,7 +44,7 @@ h2 {
 }
 
 .grid-white {
-	background: white;
+	background: #FEFEFE;
 }
 
 .grid-gray-lg {
@@ -64,11 +57,6 @@ h2 {
 	display: grid;
 	grid-template-rows: 9.09%;
 	grid-template-columns: auto;
-}
-
-.dotted-white > span {
-	width: 100%;
-	height: 100%;
 }
 
 .dotted-yellow {
@@ -94,8 +82,8 @@ h2 {
 }
 
 .text-box {
-	font-size: 150%;
-	padding: 0px 20px;
+	max-width: 100%;
+	height: 50%;
 	background: darkgray;
 }
 
@@ -103,14 +91,17 @@ h2 {
 	padding: 0px 20px;
 }
 
+/* properties for specifics elements */
+
+/* img */
 img.img-profile {
 	width: 100%;
-	height: 70%;
+	height: auto;
 }
 
 img.polo-car {
 	width: 60%;
-	height: 180%;
+	height: auto;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 5;
@@ -119,27 +110,36 @@ img.polo-car {
 	padding: 0% 20%;
 }
 
+img.traffic-arrow {
+	width: 30%;
+	height: auto;
+	align-self: center;
+	padding: 0% 35%;
+}
+
+/* span */
 span.traffic-line {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 5;
 	grid-row-end: 5;
-	background: white;
+	background: #FEFEFE;
 	height: 10%;
 	align-self: flex-end;
 }
 
+/* p */
 p.traffic-text {
 	font-size: 200%;
-	color: white;
+	color: #FEFEFE;
 	font-weight: 800;
 	transform: rotate(180deg);
 	text-align: center;
 }
 
-img.traffic-arrow {
-	height: 80%;
-	width: 30%;
-	align-self: center;
-	padding: 0% 35%;
+.text-box > p {
+	font-size: 25px;
+	padding: 0px 20px;
+	top: 50%;
+	left: 50%;
 }
