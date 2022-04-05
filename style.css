@@ -11,6 +11,7 @@ h1 {
 	margin-top: 70px;
 	right: 33.5%;
   	left: 33.5%;
+  	text-align: center;
 }
 
 h2 {
@@ -96,6 +97,17 @@ h2 {
 	background: darkgray;
 	border-radius: 2%;
 	border: 1px white solid;
+	display: flex;
+	align-items: center;
+}
+
+.language-box {
+	text-align: center;
+}
+
+.language-bullets {
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .img-box {
@@ -107,6 +119,20 @@ h2 {
 	width: 90%;
 	border: 1px white solid;
 	border-radius: 50%;
+}
+
+.text-box:hover, .img-icon:hover, .img-profile:hover {
+	border: 1px black solid;
+	transition: 1s;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+	padding-bottom: 0px;
 }
 
 /* properties for specifics elements */
@@ -166,8 +192,12 @@ p.traffic-text {
 	text-align: center;
 }
 
+ul {
+	margin-top: 0px;
+}
+
 li.bullets {
-	font-size: 140%;
+	font-size: 130%;
 }
 
 h3.link-ref {
