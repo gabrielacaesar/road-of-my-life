@@ -84,6 +84,13 @@ h2 {
 	grid-row-end: 3;
 }
 
+.row3-column2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
 .row4-column2 {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -108,6 +115,16 @@ h2 {
 .language-bullets {
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.social-box {
+	font-size: 200%;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.social-box > a:hover {
+	color: darkred;
 }
 
 .img-box {
@@ -204,4 +221,8 @@ h3.link-ref {
 	font-size: 90%;
 	text-align: center;
 	margin: 0 auto;
+}
+
+.social-box > a {
+	color: white;
 }
