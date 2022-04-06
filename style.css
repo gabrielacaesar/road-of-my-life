@@ -21,6 +21,10 @@ h2 {
 	text-align: center;
 }
 
+a {
+	color: #0000EE;
+}
+
 /* creating template */
 
 .container {
@@ -115,6 +119,15 @@ h2 {
 .language-bullets {
 	flex-direction: row;
 	justify-content: space-between;
+	list-style-type: none;
+}
+
+a.flag {
+	width: 10%;
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	padding-left: 10%;
 }
 
 .social-box {
@@ -211,6 +224,7 @@ p.traffic-text {
 
 ul {
 	margin-top: 0px;
+	padding-left: 0px;
 }
 
 li.bullets {
@@ -225,4 +239,8 @@ h3.link-ref {
 
 .social-box > a {
 	color: white;
+}
+
+.language-box > p {
+	padding-top: 5%;
 }
