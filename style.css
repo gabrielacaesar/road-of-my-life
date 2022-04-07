@@ -255,13 +255,26 @@ img.traffic-arrow {
 }
 
 span.traffic-line {
-	grid-column-start: 2;
-	grid-column-end: 3;
 	grid-row-start: 5;
 	grid-row-end: 5;
 	background: #FEFEFE;
 	height: 10%;
 	align-self: flex-end;
+}
+
+span.traffic-line-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+span.traffic-line-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+span.traffic-line-3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
 }
 
 p.traffic-text {
