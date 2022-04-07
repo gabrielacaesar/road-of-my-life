@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300;400;500;600;700;800&family=Bungee&family=Gloria+Hallelujah&family=PT+Serif:wght@700&family=Press+Start+2P&family=Raleway:ital,wght@0,200;0,500;1,300&family=Special+Elite&display=swap');
+
 body {
 	margin: 0;
 	background-color: #40643c;
 }
 
-h1 {
+h1, h5, footer {
 	position: absolute;
 	z-index: 666;
-	font-size: 60px;
+	font-size: 350%;
 	color: black;
 	margin-top: 70px;
 	right: 33.5%;
   	left: 33.5%;
   	text-align: center;
+	font-family: 'Bungee', 'Special Elite', 'Press Start 2P', 'Raleway', 'Anek Tamil', Sans-serif;
+}
+
+h5 {
+	margin-top: 50%;
+}
+
+footer {
+	margin-top: 60%;
+	font-size: 100%;
+	right: 0%;
+  	left: 65%;
 }
 
 h2 {
@@ -19,13 +33,32 @@ h2 {
 	font-size: 40px;
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Bungee', 'Special Elite', 'Press Start 2P', 'Raleway', 'Anek Tamil', Sans-serif;
+}
+
+h3 {
+	font-size: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Anek Tamil', Sans-serif;
+}
+
+h4 {
+	font-size: 90%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 a {
 	color: #0000EE;
 }
 
-/* creating template */
+ul {
+	margin-top: -20px;
+	padding-left: 0px;
+}
+
+/* bac template */
 
 .container {
 	max-width: 1280px;
@@ -37,7 +70,6 @@ a {
 	margin: 0 auto;
 }
 
-/* road 1 */
 .grid-green {
 	background: #40643c;
 }
@@ -102,6 +134,8 @@ a {
 	grid-row-end: 5;
 }
 
+/* info for text box */
+
 .text-box {
 	max-width: 100%;
 	height: 50%;
@@ -112,6 +146,16 @@ a {
 	align-items: center;
 }
 
+.text-box > p {
+	font-size: 130%;
+	padding: 0% 5%;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-family: 'Anek Tamil', Sans-serif;
+}
+
+/* language area */
 .language-box {
 	text-align: center;
 }
@@ -120,6 +164,12 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	list-style-type: none;
+	padding-top: 20px;
+	font-family: 'Anek Tamil', Sans-serif;
+}
+
+.language-box > p {
+	font-family: 'Anek Tamil', Sans-serif;
 }
 
 a.flag {
@@ -130,15 +180,23 @@ a.flag {
 	padding-left: 10%;
 }
 
+/* social area */
+
 .social-box {
 	font-size: 200%;
 	text-align: center;
 	padding-top: 5%;
 }
 
+.social-box > a {
+	color: white;
+}
+
 .social-box > a:hover {
 	color: darkred;
 }
+
+/* img box */
 
 .img-box {
 	padding: 0px 20px;
@@ -155,6 +213,8 @@ a.flag {
 	border: 1px black solid;
 	transition: 1s;
 }
+
+/* flex */
 
 .flex {
 	display: flex;
@@ -194,7 +254,6 @@ img.traffic-arrow {
 	padding: 0% 35%;
 }
 
-/* span */
 span.traffic-line {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -205,42 +264,19 @@ span.traffic-line {
 	align-self: flex-end;
 }
 
-/* p */
 p.traffic-text {
-	font-size: 200%;
+	font-size: 250%;
 	color: #FEFEFE;
 	font-weight: 800;
 	transform: rotate(180deg);
 	text-align: center;
-}
-
-.text-box > p {
-	font-size: 140%;
-	padding: 0% 5%;
-	top: 50%;
-	left: 50%;
-	text-align: center;
-}
-
-ul {
-	margin-top: 0px;
-	padding-left: 0px;
+	font-family: 'Anek Tamil', Sans-serif;
 }
 
 li.bullets {
 	font-size: 130%;
+	font-family: 'Anek Tamil', Sans-serif;
 }
 
-h3.link-ref {
-	font-size: 90%;
-	text-align: center;
-	margin: 0 auto;
-}
 
-.social-box > a {
-	color: white;
-}
 
-.language-box > p {
-	padding-top: 5%;
-}
