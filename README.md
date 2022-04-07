@@ -1,9 +1,8 @@
 # road-of-my-life
 
 to do list             
-- fill w content - others     
-- javascript of google analytics
 - media queries        
+- javascript of google analytics
 - hamburguer menu        
 - scroll menu        
-- might add: player
+- fill w content - others     
