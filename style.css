@@ -237,6 +237,10 @@ a.flag {
 	transition: 1s;
 }
 
+.img-icon:hover, .img-profile:hover {
+	width: 92%;
+}
+
 /* flex */
 
 .flex {
